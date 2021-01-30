@@ -3,6 +3,9 @@ body {
     height: 100%;
     margin: 0%;
 }
+ul {
+    padding: 0px!important;
+}
 .menu-principal {
     width: 100%;
     background-color: #252323;
@@ -12,6 +15,7 @@ main{
     margin: 0 auto;
     width: 980px;
     position: relative;
+    
 
 }
 .logo {
@@ -30,7 +34,13 @@ main{
 }
 .header-2 {
     background-color:white;
-    width: 100%;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+
+}
+.menu-urls{
+    height: 80px;
     border-bottom: 3px solid #efefef;
 }
 .menu ul li {
@@ -46,13 +56,30 @@ main{
     text-transform: uppercase;
 
 }
-.menu{
+.menu {
     width: 70%;
     float: left;
     
 }
-.busca{
+.busca {
+    text-align: center;
     width: 30%;
-    float: left;
-    margin-top: 10px;
+    float: right;
 }
+.busca input {
+    background-image: url('../img/icone-search.png');
+    background-repeat: no-repeat;
+    background-position: 96%;
+    height: 36px;
+    margin-top: 10px;
+    width: 190px;
+    padding: 0px 12px;
+    border: 1px solid #d6d6d6
+    
+}
+.col-100 {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+   
